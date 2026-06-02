@@ -1,6 +1,9 @@
 # Python-TCP-Chatroom
 Tugas Pemrograman Socket - Jaringan Komputer
 
+# Python-TCP-Chatroom
+Tugas Pemrograman Socket - Jaringan Komputer
+
 # Simulasi Chat Room Berbasis Protokol TCP Menggunakan Python Socket
 
 Proyek ini mendemonstrasikan komunikasi antar-client (*client-to-client*) melalui perantara server menggunakan **Socket Programming** berbasis protokol **TCP (`SOCK_STREAM`)**. Implementasi menggunakan metode **Multithreading** agar server mampu menangani banyak koneksi client secara bersamaan (*concurrent*) tanpa terjadi interupsi.
@@ -21,21 +24,21 @@ Proyek ini mendemonstrasikan komunikasi antar-client (*client-to-client*) melalu
 
 ## Panduan Menjalankan Simulasi
 
-Simulasi ini membutuhkan minimal 3 terminal (1 Server + 2 Client). Jalankan dengan urutan berikut:
+Simulasi ini membutuhkan minimal 3 terminal (1 Server + 2 Client). Buka 3 terminal terpisah di dalam direktori proyek, lalu jalankan perintah berikut secara berurutan:
 
-### 1. Aktifkan Server (Terminal 1)
-Masuk ke direktori proyek, lalu eksekusi:
 ```bash
+# 1. Aktifkan Server di Terminal 1
 py server.py
-### 2. Hubungkan Client Pertama (Terminal 2)
-Buka terminal baru, lalu eksekusi:
-```bash
+
+# 2. Hubungkan Client Pertama di Terminal 2 (Lalu masukkan nama, misal: sayd)
 py client.py
-Masukkan nama pengguna saat diminta (contoh: sayd).
-### 3. Hubungkan Client Kedua (Terminal 3)
-Buka terminal baru lagi, lalu eksekusi:
-```bash
+
+# 3. Hubungkan Client Kedua di Terminal 3 (Lalu masukkan nama, misal: aldi)
 py client.py
-Masukkan nama pengguna yang berbeda (contoh: aldi).
+```
+
+Setelah ketiga terminal aktif, komunikasi dua arah antar-client sudah dapat dilakukan secara real-time melalui jaringan lokal.
+
+---
 
 Setelah ketiga terminal aktif, komunikasi dua arah antar-client sudah dapat dilakukan secara real-time melalui jaringan lokal.
