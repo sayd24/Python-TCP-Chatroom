@@ -1,9 +1,6 @@
 # Python-TCP-Chatroom
 Tugas Pemrograman Socket - Jaringan Komputer
 
-# Python-TCP-Chatroom
-Tugas Pemrograman Socket - Jaringan Komputer
-
 # Simulasi Chat Room Berbasis Protokol TCP Menggunakan Python Socket
 
 Proyek ini mendemonstrasikan komunikasi antar-client (*client-to-client*) melalui perantara server menggunakan **Socket Programming** berbasis protokol **TCP (`SOCK_STREAM`)**. Implementasi menggunakan metode **Multithreading** agar server mampu menangani banyak koneksi client secara bersamaan (*concurrent*) tanpa terjadi interupsi.
