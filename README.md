@@ -27,3 +27,15 @@ Simulasi ini membutuhkan minimal 3 terminal (1 Server + 2 Client). Jalankan deng
 Masuk ke direktori proyek, lalu eksekusi:
 ```bash
 py server.py
+### 2. Hubungkan Client Pertama (Terminal 2)
+Buka terminal baru, lalu eksekusi:
+```bash
+py client.py
+Masukkan nama pengguna saat diminta (contoh: sayd).
+### 3. Hubungkan Client Kedua (Terminal 3)
+Buka terminal baru lagi, lalu eksekusi:
+```bash
+py client.py
+Masukkan nama pengguna yang berbeda (contoh: aldi).
+
+Setelah ketiga terminal aktif, komunikasi dua arah antar-client sudah dapat dilakukan secara real-time melalui jaringan lokal.
